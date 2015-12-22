@@ -121,7 +121,7 @@ alias ports='netstat -tulanp'
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
-source /home/xuefu/.rvm/scripts/rvm
+# source /home/xuefu/.rvm/scripts/rvm
 # Customize to your needs...
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting

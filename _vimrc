@@ -32,7 +32,7 @@ set backspace=indent,eol,start
 if has("vms")
   set nobackup		" do not keep a backup file, use versions instead
 else
-  set backup		" keep a backup file
+  "set backup		" keep a backup file
 endif
 set history=50		" keep 50 lines of command line history
 set ruler		" show the cursor position all the time
@@ -93,12 +93,12 @@ if has("autocmd")
   set autoindent		" always set autoindenting on
   set shiftwidth=2
  " set cindent
-  set tabstop=2
+  set tabstop=4
   set expandtab
-  set softtabstop=2
+  set softtabstop=4
 
   autocmd FileType c setlocal tabstop=4
-  autocmd FileType ruby set tabstop=2
+  autocmd FileType ruby set tabstop=4
 
 endif " has("autocmd")
 
